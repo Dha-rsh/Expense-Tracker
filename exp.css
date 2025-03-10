@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    width: 60%;
+    margin-right: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.row{
+    display:flex;
+}
+
+input, select {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    padding:8px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.add {
+    background-color: #28a745;
+    color: white;
+
+}
+
+.add:hover {
+    background-color: #218838;
+}
+
+
+/* Tables */
+#expense-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    table-layout: fixed; 
+}
+
+#expense-list th, .expense-list td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#expense-list th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+#expense-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+/* edit,delete */
+.actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Total Amount */
+.total-amount {
+    width:20%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*Chart*/
+.chart-container {
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+
